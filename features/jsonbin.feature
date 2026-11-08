@@ -12,8 +12,8 @@ Feature: JSONBin bins
 
     Examples:
       | payload                 |
-      | {"item": "apple"}       |
-      | {"item": "pear"}        |
+      | {"item": "kirby"}       |
+      | {"item": "haridy"}        |
 
   @tag1
   Scenario: Read a bin
