@@ -1,0 +1,5 @@
+allure-behave
+behave
+mlflow
+playwright
+requests
