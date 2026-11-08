@@ -17,7 +17,7 @@ if __name__ == "__main__":
     clean_and_create_folder(screenshot_folder)
     # 2. Define Behave arguments and run tests
     behave_args = [
-    "--tags", "@regression or @api",
+    "--tags", "@tag1 or @tag2",
     "--format", "allure_behave.formatter:AllureFormatter",
     "--outfile", "reports/allure-results"
     ]
