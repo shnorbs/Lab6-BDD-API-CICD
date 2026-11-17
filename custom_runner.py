@@ -10,10 +10,12 @@ def clean_and_create_folder(folder_path):
 if __name__ == "__main__":
     # Define paths
     allure_results_folder = "reports/allure-results"
+    allure_report_folder = "allure-report"
     screenshot_folder = "screenshots"
     # 1. Perform pre-test setup
-    print("Cleaning up old reports and screenshots...")
+    print("Cleaning up old Allure reports and screenshots...")
     clean_and_create_folder(allure_results_folder)
+    clean_and_create_folder(allure_report_folder)
     clean_and_create_folder(screenshot_folder)
     # 2. Define Behave arguments and run tests
     behave_args = [
